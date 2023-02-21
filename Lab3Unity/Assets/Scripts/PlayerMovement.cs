@@ -46,15 +46,15 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
+        if (Input.GetKeyDown(KeyCode.Space) && !jumping) {
+            body.AddForce(new Vector2(0, runSpeed * 100));
+            jumping = true;
+        }
     }
 
     void FixedUpdate() {
 
         body.velocity = new Vector2(horizontal * runSpeed, body.velocity.y);
-        if (Input.GetKeyDown(KeyCode.Space) && !jumping) {
-            body.AddForce(new Vector2(0, runSpeed * 100));
-            jumping = true;
-        }
 
     }
 
