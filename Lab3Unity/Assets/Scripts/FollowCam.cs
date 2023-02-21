@@ -22,6 +22,7 @@ public class FollowCam : MonoBehaviour
 
     void FixedUpdate() {
         if (sprite)
+        if (sprite)
         {
             Vector3 spriteLoc = Camera.main.WorldToScreenPoint(sprite.transform.position);
             Vector3 pos = transform.position;

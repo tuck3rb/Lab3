@@ -54,9 +54,12 @@ TagManager:
   - name: In Front (NC)
     uniqueID: 2494479681
     locked: 0
-  - name: Platform
-    uniqueID: 1294076009
-    locked: 0
   - name: Player
     uniqueID: 297649997
+    locked: 0
+  - name: Water
+    uniqueID: 1602091589
+    locked: 0
+  - name: Platform
+    uniqueID: 1294076009
     locked: 0
