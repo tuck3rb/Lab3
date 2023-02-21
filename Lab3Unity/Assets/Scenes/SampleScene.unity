@@ -2809,6 +2809,7 @@ MonoBehaviour:
   sprite: {fileID: 591292829}
   boundaryPercent: 0.5
   easing: 0.01
+  yOffset: 100
 --- !u!1 &567642335
 GameObject:
   m_ObjectHideFlags: 0

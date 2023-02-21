@@ -11,6 +11,7 @@ public class FollowCam : MonoBehaviour
     private float rBound;
     private float uBound;
     private float dBound;
+    public float yOffset;
 
     void Start() {
         lBound = boundaryPercent * Camera.main.pixelWidth;
@@ -42,6 +43,8 @@ public class FollowCam : MonoBehaviour
             {
                 pos.y += spriteLoc.y - uBound;
             }
+
+            pos.y += yOffset;
 
             pos = Vector3.Lerp(transform.position, pos, easing);
 
