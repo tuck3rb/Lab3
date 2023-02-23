@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D body;
     public float horizontal;
     private bool movingRight = true;
-    private bool jumping = false;
+    public bool jumping = false;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
