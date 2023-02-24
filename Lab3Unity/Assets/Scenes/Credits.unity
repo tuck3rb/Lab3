@@ -154,8 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text1: Credit to Nael, 6yr old for "The Tiger" poem
   text2: to hylz on OGA for the tiger sprite
-  text3: to __ on OGA for the tiles
-  text4: to __ on OGA for the background
+  text3: 'Tiles: Platformer Art: Pixel Redux on Kenney'
+  text4: 'Parallax: Background Elements Redux on Kenney'
   text5: 
 --- !u!4 &555361027
 Transform:

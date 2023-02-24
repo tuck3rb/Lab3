@@ -153,10 +153,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text1: Jump with Space
-  text2: Move with WASD
-  text3: Be Warned
-  text4: This game is a bit kaizo
-  text5: 
+  text2: Move with WASD or Arrow Keys
+  text3: If you get stuck, press X to reset
+  text4: Be warned...
+  text5: This game is a bit kaizo
 --- !u!4 &1364699554
 Transform:
   m_ObjectHideFlags: 0

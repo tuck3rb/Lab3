@@ -58,6 +58,10 @@ public class PlayerMovement : MonoBehaviour
             body.AddForce(new Vector2(0, runSpeed * 100));
             jumping = true;
         }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            jumping = false;
+        }
     }
 
     void FixedUpdate() {
