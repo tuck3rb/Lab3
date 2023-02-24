@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: fac7622e21cbbfb4181f67b47d85ec52
+  - enabled: 1
+    path: Assets/Scenes/ZooCityScene.unity
+    guid: 4f72335f2ff2b4b3ea4c0c03cfd076ab
   m_configObjects: {}

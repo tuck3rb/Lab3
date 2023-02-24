@@ -154,8 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text1: Jump with Space
   text2: Move with WASD
-  text3: 
-  text4: 
+  text3: Be Warned
+  text4: This game is a bit kaizo
   text5: 
 --- !u!4 &1364699554
 Transform:

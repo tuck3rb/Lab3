@@ -2,24 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Restart : MonoBehaviour
+public class Next : MonoBehaviour
 {
-    public int x;
-    public int y;
-    public int z;
+
+    public string scene;
 
     public void OnTriggerEnter2D(Collider2D collider2D) {
         print("Entered..");
         if (collider2D.gameObject.CompareTag("Player")) {
-            collider2D.gameObject.transform.position = new Vector3(x,y,z);
-            GetComponent<AudioSource>().Play();
+            GameManager.Instance.ChangeScene(scene);
         }
     }
     public void OnTriggerExit2D(Collider2D collider2D) {
         if (collider2D.gameObject.CompareTag("Player")) {
         }
     }
-    
     // Start is called before the first frame update
     void Start()
     {

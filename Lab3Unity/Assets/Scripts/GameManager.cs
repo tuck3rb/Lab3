@@ -61,7 +61,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(5.00f);
         if (poem){
             bigScreenBox.SetActive(false);
-            ChangeScene("SampleScene");
+            ChangeScene("ZooCityScene");
         } else {
             bigScreenBox.SetActive(false);
             ChangeScene("Start");
@@ -137,8 +137,12 @@ public class GameManager : MonoBehaviour
 
 
     public void ChangeScene(string scene) {
+        print("check");
         StartCoroutine(LoadYourAsyncScene(scene));
         mainScreen.SetActive(false);
+        if (scene == "Start"){
+            mainScreen.SetActive(true);
+        }
     }
 
     public void StartGame() {
