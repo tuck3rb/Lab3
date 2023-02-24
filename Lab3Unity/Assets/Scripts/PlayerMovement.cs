@@ -23,6 +23,14 @@ public class PlayerMovement : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
+    public void stopRunning(){
+        runSpeed = 0f;
+    }
+
+    public void startRunning(){
+        runSpeed = 5f;
+    }
+
     // Update is called once per frame
     void Update()
     {

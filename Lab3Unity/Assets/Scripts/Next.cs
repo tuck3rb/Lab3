@@ -10,6 +10,7 @@ public class Next : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collider2D) {
         print("Entered..");
         if (collider2D.gameObject.CompareTag("Player")) {
+            collider2D.gameObject.GetComponent<PlayerMovement>().stopRunning();
             GameManager.Instance.ChangeScene(scene);
         }
     }
